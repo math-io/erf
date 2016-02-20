@@ -130,4 +130,5 @@ Copyright &copy; 2016. The [Compute.io][compute-io] Authors.
 [istanbul]: https://github.com/gotwarlost/istanbul
 [testling]: https://ci.testling.com
 
+[compute-io]: https://github.com/compute-io/
 [error-function]: https://en.wikipedia.org/wiki/Error_function
