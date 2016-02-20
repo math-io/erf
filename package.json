@@ -37,7 +37,8 @@
 		"erf",
 		"error",
 		"function",
-		"special"
+		"special",
+    "number"
 	],
   "bugs": {
     "url": "https://github.com/math-io/erf/issues"
