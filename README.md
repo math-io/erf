@@ -30,8 +30,11 @@ var erf = require( 'math-erf' );
 Evaluates the [error function][error-function].
 
 ``` javascript
-var y = erf()
-// returns
+var y = erf( 2 );
+// returns ~0.9953
+
+y = erf( -1 )
+// returns ~-0.8427
 ```
 
 
