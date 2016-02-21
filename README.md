@@ -7,7 +7,7 @@ erf
 The [error function][error-function] is defined as
 
 <div class="equation" align="center" data-raw-text="\operatorname{erf}(x) = \frac{2}{\sqrt\pi}\int_0^x e^{-t^2}\,\mathrm dt." data-equation="eq:error_function">
-	<img src="" alt="Error function.">
+	<img src="https://cdn.rawgit.com/math-io/erf/a04ac9320eaaca5f8a09fd4b590834bea0376361/docs/img/eqn.svg" alt="Error function.">
 	<br>
 </div>
 
