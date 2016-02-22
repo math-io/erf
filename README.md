@@ -33,7 +33,7 @@ Evaluates the [error function][error-function].
 var y = erf( 2 );
 // returns ~0.9953
 
-y = erf( -1 )
+y = erf( -1 );
 // returns ~-0.8427
 ```
 
