@@ -274,3 +274,35 @@ tape( 'the function evaluates the error function for subnormal `x`', function te
 	}
 	t.end();
 });
+
+tape( 'if provided `-0`, the function returns `-0`', function test( t ) {
+	var y = erf( -0 );
+	t.equal( y, 0, 'returns 0' );
+	t.equal( 1/y, NINF, 'returns -0' );
+	t.end();
+});
+
+tape( 'if provided `+0`, the function returns `+0`', function test( t ) {
+	var y = erf( +0 );
+	t.equal( y, 0, 'returns 0' );
+	t.equal( 1/y, PINF, 'returns +0' );
+	t.end();
+});
+
+tape( 'if provided `-infinity`, the function returns `-1`', function test( t ) {
+	var y = erf( NINF );
+	t.equal( y, -1, 'returns -1' );
+	t.end();
+});
+
+tape( 'if provided `+infinity`, the function returns `+1`', function test( t ) {
+	var y = erf( PINF );
+	t.equal( y, 1, 'returns 1' );
+	t.end();
+});
+
+tape( 'if provided `NaN`, the function returns `NaN`', function test( t ) {
+	var y = erf( NaN );
+	t.ok( y !== y, 'returns NaN' );
+	t.end();
+});
