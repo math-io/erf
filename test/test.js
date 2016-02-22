@@ -41,7 +41,7 @@ tape( 'main export is a function', function test( t ) {
 	t.end();
 });
 
-tape( 'the function evaluates the error function for very large negative `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-5,-100]', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -65,7 +65,7 @@ tape( 'the function evaluates the error function for very large negative `x`', f
 	t.end();
 });
 
-tape( 'the function evaluates the error function for very large positive `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[5,100]`', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -89,7 +89,7 @@ tape( 'the function evaluates the error function for very large positive `x`', f
 	t.end();
 });
 
-tape( 'the function evaluates the error function for large negative `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-2.5,-5]`', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -113,7 +113,7 @@ tape( 'the function evaluates the error function for large negative `x`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the error function for large positive `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[2.5,5]`', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -137,7 +137,7 @@ tape( 'the function evaluates the error function for large positive `x`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the error function for medium negative `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-1,-3]`', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -161,7 +161,7 @@ tape( 'the function evaluates the error function for medium negative `x`', funct
 	t.end();
 });
 
-tape( 'the function evaluates the error function for medium positive `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[1,3]`', function test( t ) {
 	var expected;
 	var bool;
 	var tol;
@@ -185,7 +185,7 @@ tape( 'the function evaluates the error function for medium positive `x`', funct
 	t.end();
 });
 
-tape( 'the function evaluates the error function for small negative `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-0.8,-1]`', function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -200,7 +200,7 @@ tape( 'the function evaluates the error function for small negative `x`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the error function for small positive `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[0.8,1]`', function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -215,7 +215,7 @@ tape( 'the function evaluates the error function for small positive `x`', functi
 	t.end();
 });
 
-tape( 'the function evaluates the error function for `x` on the interval `[0.8,0.8]`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-0.8,0.8]`', function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -230,7 +230,7 @@ tape( 'the function evaluates the error function for `x` on the interval `[0.8,0
 	t.end();
 });
 
-tape( 'the function evaluates the error function for tiny negative `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[-1e-300,-1e-308]`', function test( t ) {
 	var expected;
 	var x;
 	var y;
@@ -245,7 +245,7 @@ tape( 'the function evaluates the error function for tiny negative `x`', functio
 	t.end();
 });
 
-tape( 'the function evaluates the error function for tiny positive `x`', function test( t ) {
+tape( 'the function evaluates the error function for `x` on the interval `[1e-300,1e-308]`', function test( t ) {
 	var expected;
 	var x;
 	var y;
